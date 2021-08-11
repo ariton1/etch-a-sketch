@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Etch-a-sketch</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>Etch-a-sketch</h1>
+    <input type="range" min="10" max="100" name="inputNum" id="inputNum" onchange="updateTextInput(this.value);">
+    <input type="text" id="textInput" value="" disabled>
+    <button class="shake">Shake!</button>
+    <div class="container"></div>
+    <script src="external.js"></script>
+</body>
+</html>
